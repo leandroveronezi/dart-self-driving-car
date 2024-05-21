@@ -44,7 +44,7 @@ The project is inspired by the [Self-driving Car (no libraries) JavaScript cours
 
 **How it works:**
 
-* The neural network has 7 inputs, representing the distance to the obstacles in front.
+* The neural network has 9 inputs, representing the distance to the obstacles in front.
 * The neural network has 4 outputs, representing the vehicle control.
 * The car is controlled by the neural network, which is trained to minimize the error relative to a goal. The goal is for the car to follow a track without colliding with walls or other cars.
 

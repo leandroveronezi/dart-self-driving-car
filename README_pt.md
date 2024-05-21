@@ -44,7 +44,7 @@ O projeto se inspira no curso [Self-driving Car (no libraries) JavaScript course
 
 **Como funciona:**
 
-* A rede neural possui 7 entradas, representando a distância para os obstáculos p frente.
+* A rede neural possui 9 entradas, representando a distância para os obstáculos p frente.
 * A rede neural possui 4 saídas, representando o controle do veículo.
 * O carro é controlado pela rede neural, que é treinada para minimizar o erro em relação a um objetivo. O objetivo é que o carro siga uma pista sem colidir com as paredes ou outros carros.
 

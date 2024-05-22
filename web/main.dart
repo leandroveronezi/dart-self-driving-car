@@ -9,10 +9,24 @@ void main() {
     isGame = true;
   }
 
+  var roadLane = isGame ? 4 : 3;
+
+  if (Uri.base.queryParameters.containsKey("lane")) {
+    try {
+      roadLane = int.parse(Uri.base.queryParameters["lane"] as String);
+    } catch (e) {
+      roadLane = 3;
+    }
+  }
+
+  if (roadLane < 2) {
+    roadLane = 2;
+  }
+
   var game = Game(
     gameType: !isGame ? GameType.trainer : GameType.key,
     trafficGenerateSpecialsItens: isGame,
-    roadLane: isGame ? 4 : 3,
+    roadLane: roadLane,
   );
 
   game.animate(0);

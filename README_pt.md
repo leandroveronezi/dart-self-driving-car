@@ -64,3 +64,6 @@ O projeto se inspira no curso [Self-driving Car (no libraries) JavaScript course
 * O código é apenas para fins educacionais.
 
 **Aproveite o aprendizado!**
+
+**Bônus:**
+[Acesse o jogo](https://leandroveronezi.github.io/dart-self-driving-car?game&road=4)
